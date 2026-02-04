@@ -22,7 +22,7 @@ InternIQ is an early-stage full-stack internship management platform built with 
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/internIQ.git
+git clone [https://github.com/your-username/internIQ.git](https://github.com/bhumishah2411/internIQ)
 
 2. Navigate into the project folder:
 cd internIQ
