@@ -11,7 +11,7 @@ InternIQ is an early-stage full-stack internship management platform built with 
   - Resume Analyzer
   - Internship Tracking
   - Performance Analytics & Growth Recommendations
-  - 
+    
 ## Tech Stack
 
 - **Frontend:** React.js  
@@ -28,42 +28,44 @@ git clone [https://github.com/your-username/internIQ.git](https://github.com/bhu
 cd internIQ
 
 3.Install dependencies:
-# For server
+### For server
 cd server
 npm install
-# Go back to root
+### Go back to root
 cd ..
-# For client
+### For client
 cd client
 npm install
 
 4. Run the project:
-# In server folder
+### In server folder
 cd server
 npm start
 
-# In a new terminal, run client
+### In a new terminal, run client
 cd ../client
 npm start
 
 ##Project Structure
 internIQ/
-├─ client/                 # React frontend
-│   ├─ public/             # Static files like index.html
-│   └─ src/                # React components, pages, and styles
-├─ server/                 # Node.js backend
-│   ├─ routes/             # API routes for users, internships, resumes
-│   ├─ models/             # Database models (planned)
-│   ├─ seedData.js         # Demo data for testing
-│   └─ server.js           # Entry point for backend server
-├─ .gitignore              # Git ignore rules
-├─ README.md               # Project documentation
-└─ package.json            # Project metadata & dependencies
+├─ client/ # React frontend
+│ ├─ public/ # Static files like index.html
+│ └─ src/ # React components, pages, and styles
+├─ server/ # Node.js backend
+│ ├─ routes/ # API routes for users, internships, resumes
+│ ├─ models/ # Database models (planned)
+│ ├─ seedData.js # Demo data for testing
+│ └─ server.js # Entry point for backend server
+├─ .gitignore # Git ignore rules
+├─ README.md # Project documentation
+└─ package.json # Project metadata & dependencies
 
-##Future Features
-Real Internship Data Integration: Connect with live internship APIs or databases
-Resume Analyzer: AI-powered suggestions for optimized resumes
-Internship Tracking: Track applications, shortlistings, and selections
-Performance Analytics: Provide insights and recommendations based on user performance
-Growth Recommendations: Personalized guidance to improve employability skills
-Mentorship & Learning Resources: Suggest courses or tutorials based on career goals
+
+## Future Features
+- **Real Internship Data Integration:** Connect with live internship APIs or databases  
+- **Resume Analyzer:** AI-powered suggestions for optimized resumes  
+- **Internship Tracking:** Track applications, shortlistings, and selections  
+- **Performance Analytics:** Provide insights and recommendations based on user performance  
+- **Growth Recommendations:** Personalized guidance to improve employability skills  
+- **Mentorship & Learning Resources:** Suggest courses or tutorials based on career goals
+
