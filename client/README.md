@@ -1,16 +1,69 @@
-# React + Vite
+# InternIQ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+InternIQ is an early-stage full-stack internship management platform built with the MERN stack, focused on intuitive UI/UX and smooth navigation. Currently, it includes user authentication screens and responsive page navigation with demo internship data. Planned features include resume analysis, internship tracking, performance analytics, and personalized growth recommendations to help students improve their applications and career growth.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User Authentication (Login/Signup)
+- Page Navigation & Responsive UI
+- Demo Internship Data
+- **Planned Features:**
+  - Resume Analyzer
+  - Internship Tracking
+  - Performance Analytics & Growth Recommendations
+  - 
+## Tech Stack
 
-## React Compiler
+- **Frontend:** React.js  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB (planned)  
+- **Other:** MERN Stack, REST APIs
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+git clone https://github.com/your-username/internIQ.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate into the project folder:
+cd internIQ
+
+3.Install dependencies:
+# For server
+cd server
+npm install
+# Go back to root
+cd ..
+# For client
+cd client
+npm install
+
+4. Run the project:
+# In server folder
+cd server
+npm start
+
+# In a new terminal, run client
+cd ../client
+npm start
+
+##Project Structure
+internIQ/
+├─ client/                 # React frontend
+│   ├─ public/             # Static files like index.html
+│   └─ src/                # React components, pages, and styles
+├─ server/                 # Node.js backend
+│   ├─ routes/             # API routes for users, internships, resumes
+│   ├─ models/             # Database models (planned)
+│   ├─ seedData.js         # Demo data for testing
+│   └─ server.js           # Entry point for backend server
+├─ .gitignore              # Git ignore rules
+├─ README.md               # Project documentation
+└─ package.json            # Project metadata & dependencies
+
+##Future Features
+Real Internship Data Integration: Connect with live internship APIs or databases
+Resume Analyzer: AI-powered suggestions for optimized resumes
+Internship Tracking: Track applications, shortlistings, and selections
+Performance Analytics: Provide insights and recommendations based on user performance
+Growth Recommendations: Personalized guidance to improve employability skills
+Mentorship & Learning Resources: Suggest courses or tutorials based on career goals
